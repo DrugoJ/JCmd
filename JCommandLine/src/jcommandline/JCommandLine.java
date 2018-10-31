@@ -22,7 +22,7 @@ public class JCommandLine {
         KeyLogger keylog = new KeyLogger();
         Commands com = new Commands();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Добро пожаловать, сейчас вы находитесь в Java Command Line");
+        System.out.println("Hello my Git, Добро пожаловать, сейчас вы находитесь в Java Command Line");
         System.out.println("Для ознакомления с командами напишите /help");
         while(true){
         String name = sc.nextLine();
